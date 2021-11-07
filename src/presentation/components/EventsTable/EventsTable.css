@@ -1,0 +1,28 @@
+.events-table {
+	@apply text-xs;
+}
+
+.header {
+	@apply p-2 bg-gray-700 text-white;
+}
+
+.event-list {
+	@apply flex flex-col bg-gray-800 text-white divide-y divide-gray-700;
+}
+
+.event {
+	@apply flex divide-x divide-gray-700;
+}
+
+.event-info {
+	@apply pt-1 p-2 w-40;
+}
+
+MarketGroup {
+	@apply flex-1;
+}
+
+.event-info div:first-child {
+	font-size: 10px;
+	@apply text-gray-400 uppercase;
+}

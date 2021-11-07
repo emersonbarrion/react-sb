@@ -1,0 +1,7 @@
+.selection-list {
+	@apply flex;
+}
+
+.selection-list:first-child {
+	@apply ml-1;
+}

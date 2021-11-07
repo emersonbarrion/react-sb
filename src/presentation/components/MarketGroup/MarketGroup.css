@@ -1,0 +1,8 @@
+.market-group {
+	@apply flex-1;
+}
+
+.market-group-header {
+	font-size: 11px;
+	@apply p-1 text-gray-400;
+}
